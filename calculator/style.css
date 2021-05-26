@@ -37,6 +37,11 @@
     text-align: right;
     overflow: hidden;
 }
+
+#resultado:focus{
+    outline: none;
+}
+
 .botao{
     width: 70px;
     height: 70px;

@@ -24,3 +24,10 @@ function calcular(){
         document.getElementById('resultado').value = "";
     }        
 }
+
+document.addEventListener('keypress', function(e){
+
+    if(e.which == 13){
+       calcular();
+    }
+ }, false);
